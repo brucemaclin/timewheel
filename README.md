@@ -1,6 +1,8 @@
 # timewheel
 provide a golang library of timewheel refer to the linux kernel timer.
 
+[![Build Status](https://travis-ci.org/brucemaclin/timewheel.svg?branch=master)](https://travis-ci.org/brucemaclin/timewheel)
+
 # Install
 go get github.com/brucemaclin/timewheel
 
