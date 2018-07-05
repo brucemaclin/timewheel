@@ -1,0 +1,11 @@
+
+language: go
+
+
+script:
+    - go fmt ./*.go
+    - go vet ./*.go
+    - go test -race ./*.go -coverprofile .testCoverage.txt
+
+      
+
